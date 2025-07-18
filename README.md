@@ -1,12 +1,48 @@
-# React + Vite
+# ✈️ Vigovia – Travel Plan Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a visually structured travel itinerary & scope-of-service component built using **React + Tailwind CSS**. It presents booking details, inclusions, exclusions, scope of service, and visual markers in a clean, client-ready UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📁 Project Structure
 
-## Expanding the ESLint configuration
+- `components/HotelBooking.jsx` – Modular, reusable hotel booking card
+- `components/TwoColTable.jsx` – Generic two-column layout table for inclusions, exclusions, etc.
+- `App.jsx` – Organizes sections like Header, Inclusions, Scope of Services
+- `data/` – Stores mock data like inclusionSummaryData, scopeOfServiceData
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Features
+
+✅ Modern UI with Tailwind CSS  
+✅ Responsive layout across devices  
+✅ Reusable & dynamic component design  
+✅ Left arrow-shaped labels for section headers  
+✅ Easy to plug in real data or APIs
+
+---
+
+## 📊 Core Sections
+
+- **Inclusion Summary**
+- **Exclusion Summary**
+- **Scope Of Services**
+- **Hotel Booking Cards**
+- **Labelled Headings with Arrows**
+
+---
+
+## 🛠️ Technologies Used
+
+- **React.js** (Functional Components)
+- **Tailwind CSS**
+- **Custom Data Rendering**
+
+---
+
+## 🚀 Getting Started
+
+```bash
+npm install
+npm run dev
